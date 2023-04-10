@@ -1,3 +1,5 @@
+package Version_2;
+
 public class Ships {
     private String name;
     private int size;
@@ -59,11 +61,11 @@ public class Ships {
         return hitPoints == 0;
     }
 
-    public int getHits() {
-        return hitPoints;
-    }
-
     public void hit() {
         hitPoints--;
+    }
+
+    public int getNumHits() {
+        return size - hitPoints;
     }
 }
