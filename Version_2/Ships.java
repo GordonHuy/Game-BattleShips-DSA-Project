@@ -61,6 +61,10 @@ public class Ships {
         return hitPoints == 0;
     }
 
+    public int getHits() {
+        return hitPoints;
+    }
+
     public void hit() {
         hitPoints--;
     }

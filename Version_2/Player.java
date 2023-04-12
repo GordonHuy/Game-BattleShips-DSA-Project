@@ -2,6 +2,7 @@ package Version_2;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Player {
     private String name;
@@ -112,11 +113,46 @@ public class Player {
                             if(row > 0 && board[row - 1][column] == 0){
                                 possibleMoves.add(new int[]{row - 1, column});
                             }
+                            if(column > 0 && board[row][column - 1] == 0){
+                                possibleMoves.add(new int[]{row, column - 1});
+                            }
+                            if(row < board.length - 1 && board[row + 1][column] == 0){
+                                possibleMoves.add(new int[]{row + 1, column});
+                            }
+                            if(column < board[row].length - 1 && board[row][column + 1] == 0){
+                                possibleMoves.add(new int[]{row, column + 1});
+                            }
                         }
                     }
                 }
+                if (!possibleMoves.isEmpty()){
+                    //randomly choose from the possible moves
+                    int index = (int) (Math.random() * possibleMoves.size());
+                    move[0] = possibleMoves.get(index)[0];
+                    move[1] = possibleMoves.get(index)[1];
+                } else {
+                    //make random move if no possible moves
+                    move[0] = (int) (Math.random() * gameBoard.getSize());
+                    move[1] = (int) (Math.random() * gameBoard.getSize());
+                }
+            }
+        } else {
+            //ask human player for input
+            Scanner scan = new Scanner(System.in);
+            boolean isValidInput = false;
+            while (!isValidInput) {
+                System.out.print("Enter row (0-" + (gameBoard.getSize() - 1) + "): ");
+                move[0] = scan.nextInt();
+                System.out.print("Enter column (0-" + (gameBoard.getSize() - 1) + "): ");
+                move[1] = scan.nextInt();
+                if(move[0] >= 0 && move[0] < gameBoard.getSize() && move[1] >= 0 && move[1] < gameBoard.getSize() && board[move[0]][move[1]] == 0){
+                    isValidInput = true;
+                } else {
+                    System.out.println("Invalid input. Try again.");
+                }
             }
         }
+        return move;
     }
 }
 
