@@ -26,21 +26,20 @@ public class GameBoard {
         return ships;
     }
 
-    public void addShip(Ships ship){
-        for(int[] location : ship.getLocation()){
-            int row = location[0];
-            int column = location[1];
-            if(row < 0 || row >= size || column < 0 || column >= size){
-                throw new IllegalArgumentException("Invialid location");
-            }
-            if(board[row][column] != 0){
-                throw new IllegalArgumentException("Occupied location");
-            }
-            board[row][column] = ships.size() + 1;
+    public void addShip(Ships ship) {
+        int[][] locations = ship.getLocation();
+        if (!isValidLocation(locations)) {
+            throw new IllegalArgumentException("Invalid location");
+        }
+        for (int[] loc : locations) {
+            int row = loc[0];
+            int col = loc[1];
+            board[row][col] = ships.size();
         }
         ships.add(ship);
     }
-
+    
+    
     public boolean isGameOver(){
         for(Ships ship : ships){
             if(!ship.isSunk()){
@@ -49,4 +48,19 @@ public class GameBoard {
         }
         return true;
     }
+
+    public boolean isValidLocation(int[][] locations) {
+        for (int[] loc : locations) {
+            int row = loc[0];
+            int col = loc[1];
+            if (row < 0 || row >= board.length || col < 0 || col >= board[0].length) {
+                return false;
+            }
+            if (board[row][col] != 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+    
 }

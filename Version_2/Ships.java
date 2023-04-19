@@ -72,4 +72,8 @@ public class Ships {
     public int getNumHits() {
         return size - hitPoints;
     }
+
+    public String getType() {
+        return this.name;
+    }
 }
