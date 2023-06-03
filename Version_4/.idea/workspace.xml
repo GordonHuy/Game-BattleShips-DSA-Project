@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65abefa6-b862-4244-9fe4-a9299dbc58e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Version_1/Version_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Version_2/Version_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Version_2/out/production/Version_2/Version_2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version_2/Battleship.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Version_2/Version_2/Battleship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version_2/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Version_2/Version_2/GameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version_2/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Version_2/Version_2/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version_2/Ships.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Version_2/Version_2/Ships.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version_3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Version_3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version_3/out/production/Battleship/BattleshipAI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Version_3/out/production/Battleship/BattleshipAI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version_3/out/production/Battleship/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Version_3/out/production/Battleship/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version_3/out/production/Battleship/GamePanel$GameState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Version_3/out/production/Battleship/GamePanel$GameState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version_3/out/production/Battleship/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Version_3/out/production/Battleship/GamePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version_3/out/production/Battleship/Marker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Version_3/out/production/Battleship/Marker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version_3/out/production/Battleship/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Version_3/out/production/Battleship/Position.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version_3/out/production/Battleship/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Version_3/out/production/Battleship/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version_3/out/production/Battleship/SelectionGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Version_3/out/production/Battleship/SelectionGrid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version_3/out/production/Battleship/Ship$ShipPlacementColour.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Version_3/out/production/Battleship/Ship$ShipPlacementColour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version_3/out/production/Battleship/Ship.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Version_3/out/production/Battleship/Ship.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version_3/out/production/Battleship/SimpleRandomAI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Version_3/out/production/Battleship/SimpleRandomAI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version_3/out/production/Battleship/SmarterAI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Version_3/out/production/Battleship/SmarterAI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version_3/out/production/Battleship/StatusPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Version_3/out/production/Battleship/StatusPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version_4.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2QVMMiRVaTlMNddzebWrgvSuYrb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Version_5" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Game" />
+      <module name="Battleship-DSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Game" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65abefa6-b862-4244-9fe4-a9299dbc58e5" name="Default Changelist" comment="" />
+      <created>1685434252720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685434252720</updated>
+      <workItem from="1685434256023" duration="21000" />
+      <workItem from="1685434453139" duration="38000" />
+      <workItem from="1685434512062" duration="140000" />
+      <workItem from="1685514058300" duration="24000" />
+      <workItem from="1685514885995" duration="2330000" />
+      <workItem from="1685525512874" duration="811000" />
+      <workItem from="1685595729694" duration="758000" />
+      <workItem from="1685687102589" duration="2269000" />
+      <workItem from="1685708373843" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
